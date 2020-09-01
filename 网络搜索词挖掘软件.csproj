@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Excavate_From.cs">
       <SubType>Form</SubType>
     </Compile>
