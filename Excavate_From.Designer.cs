@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txt_KeyWord = new System.Windows.Forms.TextBox();
             this.Btn_Search = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Result_ListView
@@ -95,11 +96,21 @@
             this.Btn_Search.UseVisualStyleBackColor = true;
             this.Btn_Search.Click += new System.EventHandler(this.Btn_Search_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(145, 107);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(315, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Excavate_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 410);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Btn_Search);
             this.Controls.Add(this.txt_KeyWord);
             this.Controls.Add(this.label1);
@@ -120,6 +131,7 @@
         private System.Windows.Forms.ColumnHeader Id;
         private System.Windows.Forms.ColumnHeader KeyWord;
         private System.Windows.Forms.ColumnHeader IndexWord;
+        private System.Windows.Forms.Button button1;
     }
 }
 
